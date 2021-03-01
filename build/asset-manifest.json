@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TrackBackers_Frontend/static/css/main.3cbbddea.chunk.css",
+    "main.js": "/TrackBackers_Frontend/static/js/main.78a3c31b.chunk.js",
+    "main.js.map": "/TrackBackers_Frontend/static/js/main.78a3c31b.chunk.js.map",
+    "runtime-main.js": "/TrackBackers_Frontend/static/js/runtime-main.7a7be563.js",
+    "runtime-main.js.map": "/TrackBackers_Frontend/static/js/runtime-main.7a7be563.js.map",
+    "static/js/2.9d17bc7b.chunk.js": "/TrackBackers_Frontend/static/js/2.9d17bc7b.chunk.js",
+    "static/js/2.9d17bc7b.chunk.js.map": "/TrackBackers_Frontend/static/js/2.9d17bc7b.chunk.js.map",
+    "index.html": "/TrackBackers_Frontend/index.html",
+    "precache-manifest.9b5bfe020b499f7d2232827d9dc10d04.js": "/TrackBackers_Frontend/precache-manifest.9b5bfe020b499f7d2232827d9dc10d04.js",
+    "service-worker.js": "/TrackBackers_Frontend/service-worker.js",
+    "static/css/main.3cbbddea.chunk.css.map": "/TrackBackers_Frontend/static/css/main.3cbbddea.chunk.css.map",
+    "static/js/2.9d17bc7b.chunk.js.LICENSE.txt": "/TrackBackers_Frontend/static/js/2.9d17bc7b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a7be563.js",
+    "static/js/2.9d17bc7b.chunk.js",
+    "static/css/main.3cbbddea.chunk.css",
+    "static/js/main.78a3c31b.chunk.js"
+  ]
+}
