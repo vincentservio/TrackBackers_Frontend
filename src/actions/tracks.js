@@ -1,7 +1,7 @@
 export const getTracks = () => {
   return (dispatch) => {
     dispatch({type: "LOADING_TRACKS"});
-    return fetch("http://localhost:3001/tracks")
+    return fetch("https://track-backers-backend.herokuapp.com/tracks")
       .then((res) => res.json())
       .then((tracks) => dispatch({type: "TRACKS_LOADED", payload: tracks}));
   };
@@ -9,7 +9,7 @@ export const getTracks = () => {
 export const addTrack = (track) => {
   return (dispatch) => {
     dispatch({type: "ADDING_TRACK"});
-    fetch("http://localhost:3001/tracks", {
+    fetch("https://track-backers-backend.herokuapp.com/tracks", {
       method: "POST",
       body: JSON.stringify(track),
       headers: {
@@ -25,7 +25,7 @@ export const removeTrack = (track) => {
   return (dispatch) => {
     dispatch({type: "REMOVE_TRACK"});
     debugger;
-    fetch("http://localhost:3001/tracks", {
+    fetch("https://track-backers-backend.herokuapp.com/tracks", {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",

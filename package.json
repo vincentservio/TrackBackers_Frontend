@@ -1,4 +1,5 @@
 {
+  "homepage": "https://vincentservio.github.io/TrackBackers_Frontend",
   "name": "front-tt",
   "version": "0.1.0",
   "private": true,
@@ -22,8 +23,6 @@
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0"
   },
-
-   "homepage":"https://vincentservio.github.io/TrackBackers_Frontend",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
